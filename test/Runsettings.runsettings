@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="NormalSetting" value="Value1" />
+    <Parameter name="ComplexObject:PropertyOnObject" value="VarValueInProperty" />
+  </TestRunParameters>
+</RunSettings>
