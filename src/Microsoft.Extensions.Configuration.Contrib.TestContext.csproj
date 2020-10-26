@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <description>Microsoft.Extensions.Configuration is an implementation for Microsoft.Extensions.Configuration that allows you to use TestContext properties and .runsettings files.</description>
+    <Authors>Nathan Ellenfield</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Copyright>© Nathan Ellenfield. All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://github.com/ellenfieldn/Microsoft.Extensions.Configuration.Contrib.TestContext/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ellenfieldn/Microsoft.Extensions.Configuration.Contrib.TestContext</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ellenfieldn/Microsoft.Extensions.Configuration.Contrib.TestContext</RepositoryUrl>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageTags>Configuration TestContext MSTest runsettings</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
