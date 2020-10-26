@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Nathan Ellenfield. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
-using Microsoft.Extensions.Configuration.Contrib.TestContext;
+using Contrib.Microsoft.Extensions.Configuration.TestContext;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
