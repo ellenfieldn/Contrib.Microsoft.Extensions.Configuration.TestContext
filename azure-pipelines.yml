@@ -18,7 +18,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'pack'
-    packagesToPack: '**/Microsoft.Extensions.Configuration.Contrib.TestContext.csproj'
+    packagesToPack: '**/Contrib.Microsoft.Extensions.Configuration.TestContext.csproj'
     versioningScheme: 'off'
 
 - task: PublishBuildArtifacts@1

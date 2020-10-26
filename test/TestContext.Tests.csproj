@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Microsoft.Extensions.Configuration.Contrib.TestContext.csproj" />
+    <ProjectReference Include="..\src\Contrib.Microsoft.Extensions.Configuration.TestContext.csproj" />
   </ItemGroup>
 
 </Project>

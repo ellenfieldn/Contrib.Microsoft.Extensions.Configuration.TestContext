@@ -1,18 +1,20 @@
 ﻿// Copyright (c) Nathan Ellenfield. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using MSTest = Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Microsoft.Extensions.Configuration.Contrib.TestContext
+namespace Contrib.Microsoft.Extensions.Configuration.TestContext
 {
     /// <summary>
     /// Implementation of <see cref="IConfigurationProvider"/> that supports TestContext-based configuration.
     /// </summary>
     public class TestContextConfigurationProvider : ConfigurationProvider
     {
-        private readonly VisualStudio.TestTools.UnitTesting.TestContext _testContext;
+        private readonly MSTest.TestContext _testContext;
 
         /// <summary>
         /// Initializes a new instance from the source configuration.

@@ -1,7 +1,10 @@
 ﻿// Copyright (c) Nathan Ellenfield. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
-namespace Microsoft.Extensions.Configuration.Contrib.TestContext
+using Microsoft.Extensions.Configuration;
+using MSTest = Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace Contrib.Microsoft.Extensions.Configuration.TestContext
 {
     /// <summary>
     /// Represents data in an <see cref="IConfiguration"/> as an <see cref="IConfigurationSource"/>.
@@ -11,7 +14,7 @@ namespace Microsoft.Extensions.Configuration.Contrib.TestContext
         /// <summary>
         /// The underlying configuration.
         /// </summary>
-        public VisualStudio.TestTools.UnitTesting.TestContext TestContext { get; set; }
+        public MSTest.TestContext TestContext { get; set; }
 
         /// <summary>
         /// Builds the <see cref="TestContextConfigurationProvider"/> for this source.
