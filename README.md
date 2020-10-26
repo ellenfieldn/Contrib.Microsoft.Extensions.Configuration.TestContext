@@ -1,6 +1,8 @@
 # Microsoft.Extensions.Configuration.Contrib.TestContext
 Allows using TestContext for asp.net core configuration.. It is built on top of the Microsoft.Extensions.Configuration nuget package and supports .NET Core 2.0+ and .Net Framework 4.7+.
 
+[![Build Status](https://ellenfieldn.visualstudio.com/Microsoft.Extensions.Configuration.Contrib.TestContext/_apis/build/status/CI%20TestContext%20Config?branchName=main)](https://ellenfieldn.visualstudio.com/Microsoft.Extensions.Configuration.Contrib.TestContext/_build/latest?definitionId=9&branchName=main)
+[![Microsoft.Extensions.Configuration.Contrib.TestContext](https://img.shields.io/nuget/v/Microsoft.Extensions.Configuration.Contrib.TestContext.svg?maxAge=3600)](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Contrib.TestContext/)
 ## Usage
 1. Create your runsettings file and fill it with properties. Note that ":" is used as the delimiter.
 ```xml
